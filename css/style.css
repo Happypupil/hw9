@@ -1,0 +1,159 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url('https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/5eeea355389655.59822ff824b72.gif');
+    transition: 0.3s;
+    background-repeat: no-repeat;
+}
+
+body:hover {
+    transition: 0.3s;
+    background-image: url('https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/5eeea355389655.59822ff824b72.gif');
+}
+
+.container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    border-radius: 100px;
+    border-top: 2px solid white;
+    border-right: 2px solid white;
+    background-color: greenyellow;
+    width: 360px;
+    height: 242px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 150px;
+    gap: 50px;
+    transition: 0.3s;
+}
+
+.container:hover {
+    border-radius: 100px;
+    transition: 0.3s;
+    background-color: red;
+    box-shadow: 15px 15px 20px black;
+}
+
+.flex {
+    display: flex;
+    gap: 30px;
+    margin-right: 40px;
+
+}
+
+/* .column {
+     flex-direction: column;
+    gap: 20px;
+} */
+
+.sign_in {
+    border: 2px solid white;
+    border-radius: 10px;
+    width: 100px;
+    height: -5px;
+    background-color: indigo;
+    cursor: pointer;
+    padding: 0 auto;
+    transition: 1s;
+    /* box-shadow: 5px 5px 10px rgb(43, 255, 0); */
+}
+
+.sign_in:hover {
+    border: none;
+    transition: 1s;
+    box-shadow: 5px 5px 10px rgb(43, 255, 0);
+    background-color: orange;
+}
+
+.in {
+    margin-left: 25px;
+    margin-top: 15px;
+    color: lime;
+    text-decoration: none;
+}
+
+.sign_up {
+    border: 2px solid white;
+    border-radius: 10px;
+    width: 100px;
+    height: -5px;
+    background-color: indigo;
+    cursor: pointer;
+    /* box-shadow: 5px 5px 10px rgb(43, 255, 0); */
+    transition: 1s;
+}
+
+.sign_up:hover {
+    border: none;
+    transition: 1s;
+    box-shadow: 5px 5px 10px rgb(43, 255, 0);
+    background-color: orange;
+}
+
+.up {
+    margin-left: 25px;
+    margin-top: 15px;
+    color: lime;
+    text-decoration: none;
+}
+
+.google {
+    position: absolute;
+    margin-left: 87px;
+    margin-top: 30px;
+    border: 2px solid white;
+    border-radius: 10px;
+    width: 150px;
+    height: -5px;
+    background-color: indigo;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.google:hover {
+    border: none;
+    transition: 0.5s;
+    box-shadow: 5px 5px 10px rgb(43, 255, 0);
+    background-color: orange;
+}
+
+.with {
+    margin-left: 5px;
+    text-decoration: none;
+    color: lime;
+    cursor: pointer;
+}
+
+.account {
+    position: absolute;
+    margin-left: 87px;
+    margin-top: -50px;
+    border: 2px solid white;
+    border-radius: 10px;
+    width: 150px;
+    height: -5px;
+    background-color: indigo;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.account:hover {
+    border: none;
+    transition: 0.5s;
+    box-shadow:  5px 5px 10px rgb(43, 255, 0);
+    background-color: orange;
+}
+
+.new {
+    margin-left: 5px;
+    text-decoration: none;
+    color: lime;
+    cursor: pointer;
+}

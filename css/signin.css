@@ -1,0 +1,124 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} 
+
+.container {
+    background-color: gray;
+    flex-direction: column;
+    width: 550px;
+    height: 200px;
+    margin: 0 auto;
+    border: 2px ridge lightsalmon;
+    border-radius: 10px;
+}
+
+input {
+    border: 3px solid saddlebrown;
+    border-radius: 10px;
+}
+
+.name {
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.surname {
+    margin-left: 10px;
+}
+
+.email {
+    margin-left: 10px;
+}
+
+.birth {
+    margin-left: 10px;
+    display: flex;
+    gap: 10px;
+    cursor: pointer;
+}
+
+.hr {
+    width: 0%; 
+    height: 190px;
+    margin-left: 260px;
+    margin-top: -145px; 
+    background-color: black;
+}
+
+.google {
+    width: 300px;
+    margin-left: 300px;
+    margin-top: -180px;
+}
+
+.twitter {
+    width: 300px;
+    margin-left: 300px;
+    margin-top: 20px;
+}
+
+.sss {
+
+    text-decoration: underline blue;
+}
+
+.ddd {
+    text-decoration: underline blue;
+}
+
+.wwww {
+    color: darkblue;
+}
+
+.aaa {
+    color: darkgoldenrod;
+}
+
+.facebook {
+    width: 300px;
+    margin-left: 300px;
+}
+
+.qqq {
+    color: darkgoldenrod;
+}
+
+.eee {
+    color: darkblue;
+}
+
+button {
+    cursor: pointer;
+    width: 240px;
+}
+
+.sign {
+    color: rgb(33, 189, 189);
+}
+
+.area {
+    margin-top: -30px;
+    margin-left: 300px;
+}
+
+.u {
+    color: red;
+}
+
+.o {
+    color: orange;
+}
+
+.g {
+    color: blue;
+}
+
+.l {
+    color: green;
+}
+
+.e {
+    color: red;
+}

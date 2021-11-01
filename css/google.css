@@ -1,0 +1,130 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: dodgerblue;
+}
+
+.back {
+    margin-left: 120px;
+    text-decoration: none;
+    transition: 2s;
+}
+
+.back:hover {
+    text-decoration: underline chocolate;
+    transition: 2s;
+}
+
+input {
+    border-radius: 8px;
+}
+
+.register {
+    position: relative;
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;
+    border: none;
+    border-radius: 20px;
+    border-top: 2px solid white;
+    border-right: 2px solid white;
+    background-color: greenyellow;
+    width: 300px;
+    height: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    gap: 50px;
+    transition: 0.5s;
+}
+
+.register:hover {
+    border-radius: 80px;
+    transition: 0.5s;
+}
+
+.sign {
+    color: crimson;
+    margin-left: 76px;
+    margin-top: 40px;
+}
+
+.you {
+    margin-top: 40px;
+}
+
+.gmail {
+    border: none;
+    border-radius: 5px;
+    color: chocolate;
+    margin-left: 80px;
+
+}
+
+.gmail:hover {
+    border: 2px solid chocolate;
+}
+
+.password {
+    color: chocolate;
+    border: none;
+    border-radius: 5px;
+    margin-left: 80px;
+}
+
+.password:hover {
+    border: 2px solid chocolate;
+}
+
+form {
+    margin-top: 5px;
+    margin-left: -18px;
+}
+
+.go {
+    width: 50px;
+    color: maroon;
+    text-decoration: none;
+}
+
+.go:hover {
+    border-radius: 30px;
+}
+
+.botton {
+    width: 50px;
+    display: flex;
+    gap: 40px;
+    margin-left: 100px;
+
+}
+
+button {
+    color: maroon;
+    cursor:pointer;
+}
+
+
+.u {
+    color: red;
+}
+
+.o {
+    color: orange;
+}
+
+.g {
+    color: blue;
+}
+
+.l {
+    color: green;
+}
+
+.e {
+    color: red;
+}
